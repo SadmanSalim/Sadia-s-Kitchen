@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.iconify-icon {
+  line-height: 10px !important;
+  vertical-align: middle;
+}
+
+:root {
+  --primary-color: #ec1a23;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Inter", sans-serif;
+  --tertiary-font: "Caveat", cursive;
+}
+
+.order-button{
+  font-family: var(--primary-font);
+  background: var(--primary-color);
+  padding: 14px 30px;
+  border-radius: 10px;
+  color: #fff;
+}
+.order-button iconify-icon {
+  font-size: 20px; 
+}
+
+/* Nav Bar Start Here */
+.navbar .navbar-nav li{
+    padding: 0 12px;
+}
+.navbar .navbar-nav li a {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+.button-nav{
+    display: flex;
+    align-items: center;
+    margin-top: -8px;
+}
+.navbar .navbar-nav .order-button{
+    color: #fff;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.navbar-toggler iconify-icon{
+  font-size: 30px;
+}
+
+/* Nav Bar End */
+
+/* Hero Banner Start */
+.banner-content {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+.banner-content img {
+  width: 100%;
+  height: 100%;
+}
+/* Custom Arrows */
+.slick-prev, .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
+
+.slick-prev {
+  left: 20px;
+}
+
+.slick-next {
+  right: 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: '';
+}
+
+/* Dot Navigation Styling Fix */
+.slick-dots {
+  position: absolute;
+  bottom: 5px;     
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  background: #ddd;
+  border: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+  background: var(--primary-color);
+}
+/* Hero Banner End Here */
+
+/* Business Details Start Here */
+#business_details{
+  margin-top: 47px;
+  margin-bottom: 68px;
+}
+#business_details .heading_text{
+  text-align: center;
+}
+
+#business_details .heading_text h3 {
+  font-family: var(--tertiary-font);
+font-weight: 700;
+font-size: 50px;
+color: #1a1a1a;
+}
+#business_details .heading_text p {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #383838;
+  margin: 6px 0 47px 0;
+}
+#business_details .heading_text h3 span{
+  color: var(--primary-color);
+}
+
+/* Business Details End Here */
+
+/* Menu Start Here */
+#menu .heading .heading_text .main_heading h3{
+  font-family: var(--tertiary-font);
+font-weight: 700;
+font-size: 50px;
+color: #1a1a1a;
+}
+#menu .heading .heading_text .main_heading h3 span{
+  color: var(--primary-color);
+}
+#menu .heading .heading_text .main_heading{
+  position: relative;
+}
+#menu .heading .heading_text .main_heading .icon{
+  position: absolute;
+  top: -10px;
+  left: -5px;
+}
+#menu .heading .heading_text .main_heading p{
+  font-family: var(--secondary-font);
+font-weight: 400;
+font-size: 16px;
+color: #383838;
+}
+
+#menu .contents {
+  margin-top: 45px;
+}
+#menu .contents .menus .menu-item{
+  width: 285px;
+  height: 300px;
+  margin: 0 20px;
+  border-radius: 15px;
+}
+#menu .contents .menus .menu-item{
+  width: 100%;
+  height: 100%;
+}
+/* Menu End Here */

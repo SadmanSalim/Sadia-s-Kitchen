@@ -171,6 +171,9 @@ color: #1a1a1a;
 /* Business Details End Here */
 
 /* Menu Start Here */
+#menu{
+  margin-bottom: 72px;
+}
 #menu .heading .heading_text .main_heading h3{
   font-family: var(--tertiary-font);
 font-weight: 700;

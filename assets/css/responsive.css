@@ -36,9 +36,37 @@
     justify-content: center;
     height: 270px;
   }
+  #menu .heading .heading_text .main_heading p {
+    font-size: 12px;
+  }
   #menu .heading .heading_text .main_heading .icon{
     position: absolute;
     top: -10px;
-    left: 85px;
+    left: 60px;
+  }
+  #menu .heading .heading_text .main_heading h3 {
+    font-size: 40px;
+  }
+  #happy_customer .heading_text h3 {
+    font-size: 30px;
+  }
+  #happy_customer .heading_text p {
+    font-size: 12px;
+  }
+  #happy_customer{
+    margin-bottom: 50px;
+  }
+  #footer .content{
+    padding: 47px 0 80px 0;
+  }
+  #footer .right-row iframe{
+    width: 250px;
+    height: 200px;
+  }
+  #footer .middle-row{
+    margin: 10px 0 10px 0;
+  }
+  #footer .copyright p{
+    font-size: 13px;
   }
 }

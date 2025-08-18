@@ -69,4 +69,14 @@
   #footer .copyright p{
     font-size: 13px;
   }
+  .cart{
+  width: 80px;
+  height: 75px;
+  }
+  
+  .cart iconify-icon{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  
 }

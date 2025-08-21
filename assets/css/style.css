@@ -342,28 +342,37 @@ color: #fff;
 /* cart design start here */
 .cart{
   border-radius: 11px 0 0 11px;
-width: 100px;
-height: 95px;
+width: 65px;
+height: 65px;
 background: var(--primary-color);
-display: inline-block;
-justify-content: center;
-align-items: center;
 color: #fff;
 position: fixed;
 top: 50%;
 transform: translateY(-50%);
 right: 0;
 }
-
-.cart iconify-icon{
-  display: block;
-  font-size: 40px;
-  margin-top: 15px;
+.cart .iconify-icon{
+  font-size: 35px;
+}
+.cart .notification{
+  position: absolute;
+  background: #FFC107;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: -5px;
+  top: -5px;
+}
+.business-slider .slick-slide {
+  transform: scale(0.8); /* baki gula choto */
+  opacity: 0.5;          /* halka kore dekhabe */
+  transition: all 0.3s ease;
 }
 
-.cart p{
-  font-family: var(--primary-font);
-  text-align: center;
-  
+.business-slider .slick-center {
+  transform: scale(1);   /* majher ta boro */
+  opacity: 1;            /* clear dekhabe */
 }
+
 /* cart design end here */

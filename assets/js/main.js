@@ -38,4 +38,33 @@ $(document).ready(function(){
             }
         ]
       });
+      $('.business-slider').slick({
+        centerMode: true,
+        slidesToShow: 3,
+        centerPadding: '330px',
+        focusOnSelect: true,
+        autoplay: true,
+        arrows: false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+              
   });

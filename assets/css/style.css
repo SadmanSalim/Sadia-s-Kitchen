@@ -168,6 +168,25 @@ ol {
 #business_details .heading_text h3 span {
   color: var(--primary-color);
 }
+.business-slider .slick-slide {
+  display: flex !important;
+  justify-content: center;          
+  align-items: center;               
+}
+
+.business-slider .slick-slide img {
+  max-width: 500px;                  
+  margin: auto;
+  transition: all 0.3s ease;
+  transform: scale(0.8);
+  opacity: 0.5;
+}
+
+.business-slider .slick-center img {
+  transform: scale(1);
+  opacity: 1;
+}
+
 
 /* Business Details End Here */
 
@@ -202,15 +221,11 @@ ol {
 #menu .contents {
   margin-top: 45px;
 }
-#menu .contents .menus .menu-item {
+#menu .contents .menu-item {
   width: 285px;
   height: 300px;
   margin: 0 20px;
   border-radius: 15px;
-}
-#menu .contents .menus .menu-item {
-  width: 100%;
-  height: 100%;
 }
 /* Menu End Here */
 
@@ -363,16 +378,6 @@ right: 0;
   border-radius: 50%;
   left: -5px;
   top: -5px;
-}
-.business-slider .slick-slide {
-  transform: scale(0.8); /* baki gula choto */
-  opacity: 0.5;          /* halka kore dekhabe */
-  transition: all 0.3s ease;
-}
-
-.business-slider .slick-center {
-  transform: scale(1);   /* majher ta boro */
-  opacity: 1;            /* clear dekhabe */
 }
 
 /* cart design end here */

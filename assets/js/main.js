@@ -20,28 +20,28 @@ $(document).ready(function(){
             }
         ]
     });
-    $('.menus').slick({
-        arrows: true,
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        // centerMode: true,
-        prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
-        nextArrow: '<button type="button" class="slick-next">&#10095;</button>',
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-      });
+    // $('.menus').slick({
+    //     arrows: true,
+    //     infinite: true,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1,
+    //     // centerMode: true,
+    //     prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
+    //     nextArrow: '<button type="button" class="slick-next">&#10095;</button>',
+    //     responsive: [
+    //         {
+    //             breakpoint: 768,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1
+    //             }
+    //         }
+    //     ]
+    //   });
       $('.business-slider').slick({
         centerMode: true,
         slidesToShow: 3,
-        centerPadding: '330px',
+        centerPadding: '300px',
         focusOnSelect: true,
         autoplay: true,
         arrows: false,
@@ -51,8 +51,8 @@ $(document).ready(function(){
             settings: {
               arrows: false,
               centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 3
+              centerPadding: '500px',
+              slidesToShow: 1
             }
           },
           {

@@ -31,10 +31,10 @@
   #business_details .contents .col{
     margin: 10px 0;
   }
-  #menu .contents .menus .menu-item{
-    display: flex;
-    justify-content: center;
-    height: 270px;
+  #menu .contents .menu-item {
+    width: 170px;
+    height: auto;
+    margin: 10px 0;
   }
   #menu .heading .heading_text .main_heading p {
     font-size: 12px;
